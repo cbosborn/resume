@@ -1,1 +1,1 @@
-fswatch -o resume.tex | xargs -n1 ./compile.sh
+fswatch -o *.tex *.cls | xargs -n1 ./compile.sh
